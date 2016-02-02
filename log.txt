@@ -1,0 +1,241 @@
+[4mInitializing[24m
+Command-line options: [36m--verbose[39m
+
+Reading "Gruntfile.js" Gruntfile...[32mOK[39m
+
+[1mRegistering Gruntfile tasks.[22m
+
+[1mRegistering "grunt-autoprefixer" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-autoprefixer\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-autoprefixer\package.json...[32mOK[39m
+Loading "autoprefixer.js" tasks...[32mOK[39m
++ [36mautoprefixer[39m
+
+[1mRegistering "grunt-concurrent" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-concurrent\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-concurrent\package.json...[32mOK[39m
+Loading "concurrent.js" tasks...[32mOK[39m
++ [36mconcurrent[39m
+
+[1mRegistering "grunt-connect-proxy" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-connect-proxy\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-connect-proxy\package.json...[32mOK[39m
+Loading "connect_proxy.js" tasks...[32mOK[39m
++ [36mconfigureProxies[39m
+
+[1mRegistering "grunt-contrib-clean" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-clean\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-clean\package.json...[32mOK[39m
+Loading "clean.js" tasks...[32mOK[39m
++ [36mclean[39m
+
+[1mRegistering "grunt-contrib-concat" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-concat\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-concat\package.json...[32mOK[39m
+Loading "concat.js" tasks...[32mOK[39m
++ [36mconcat[39m
+
+[1mRegistering "grunt-contrib-connect" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-connect\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-connect\package.json...[32mOK[39m
+Loading "connect.js" tasks...[32mOK[39m
++ [36mconnect[39m
+
+[1mRegistering "grunt-contrib-copy" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-copy\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-copy\package.json...[32mOK[39m
+Loading "copy.js" tasks...[32mOK[39m
++ [36mcopy[39m
+
+[1mRegistering "grunt-contrib-cssmin" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-cssmin\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-cssmin\package.json...[32mOK[39m
+Loading "cssmin.js" tasks...[32mOK[39m
++ [36mcssmin[39m
+
+[1mRegistering "grunt-contrib-htmlmin" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-htmlmin\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-htmlmin\package.json...[32mOK[39m
+Loading "htmlmin.js" tasks...[32mOK[39m
++ [36mhtmlmin[39m
+
+[1mRegistering "grunt-contrib-imagemin" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-imagemin\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-imagemin\package.json...[32mOK[39m
+Loading "imagemin.js" tasks...[31mERROR[39m
+[31m>> [39mError: Cannot find module 'imagemin-jpegtran'[31m
+>> [39m    at Function.Module._resolveFilename (module.js:338:15)[31m
+>> [39m    at Function.Module._load (module.js:280:25)[31m
+>> [39m    at Module.require (module.js:364:17)[31m
+>> [39m    at require (module.js:380:17)[31m
+>> [39m    at Object.<anonymous> (C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-imagemin\node_modules\imagemin\index.js:197:27)[31m
+>> [39m    at Module._compile (module.js:456:26)[31m
+>> [39m    at Object.Module._extensions..js (module.js:474:10)[31m
+>> [39m    at Module.load (module.js:356:32)[31m
+>> [39m    at Function.Module._load (module.js:312:12)[31m
+>> [39m    at Module.require (module.js:364:17)[31m
+>> [39m    at require (module.js:380:17)[31m
+>> [39m    at Object.<anonymous> (C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-imagemin\tasks\imagemin.js:7:16)
+
+[1mRegistering "grunt-contrib-jshint" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-jshint\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-jshint\package.json...[32mOK[39m
+Loading "jshint.js" tasks...[32mOK[39m
++ [36mjshint[39m
+
+[1mRegistering "grunt-contrib-uglify" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-uglify\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-uglify\package.json...[32mOK[39m
+Loading "uglify.js" tasks...[32mOK[39m
++ [36muglify[39m
+
+[1mRegistering "grunt-contrib-watch" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-watch\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-contrib-watch\package.json...[32mOK[39m
+Loading "watch.js" tasks...[32mOK[39m
++ [36mwatch[39m
+
+[1mRegistering "grunt-filerev" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-filerev\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-filerev\package.json...[32mOK[39m
+Loading "filerev.js" tasks...[32mOK[39m
++ [36mfilerev[39m
+
+[1mRegistering "grunt-google-cdn" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-google-cdn\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-google-cdn\package.json...[32mOK[39m
+Loading "cdnify.js" tasks...[32mOK[39m
++ [36mcdnify[39m
+
+[1mRegistering "grunt-karma" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-karma\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-karma\package.json...[32mOK[39m
+Loading "grunt-karma.js" tasks...[32mOK[39m
++ [36mkarma[39m
+
+[1mRegistering "grunt-newer" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-newer\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-newer\package.json...[32mOK[39m
+Loading "newer.js" tasks...[32mOK[39m
++ [36many-newer[39m, [36mnewer[39m, [36mnewer-clean[39m, [36mnewer-postrun[39m
+
+[1mRegistering "grunt-ng-annotate" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-ng-annotate\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-ng-annotate\package.json...[32mOK[39m
+Loading "ng-annotate.js" tasks...[32mOK[39m
++ [36mngAnnotate[39m
+
+[1mRegistering "grunt-protractor-runner" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-protractor-runner\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-protractor-runner\package.json...[32mOK[39m
+Loading "protractor_runner.js" tasks...[32mOK[39m
++ [36mprotractor[39m
+
+[1mRegistering "grunt-protractor-webdriver" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-protractor-webdriver\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-protractor-webdriver\package.json...[32mOK[39m
+Loading "protractor_webdriver.js" tasks...[32mOK[39m
++ [36mprotractor_webdriver[39m
+
+[1mRegistering "grunt-svgmin" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-svgmin\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-svgmin\package.json...[32mOK[39m
+Loading "svgmin.js" tasks...[32mOK[39m
++ [36msvgmin[39m
+
+[1mRegistering "grunt-usemin" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-usemin\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-usemin\package.json...[32mOK[39m
+Loading "usemin.js" tasks...[32mOK[39m
++ [36musemin[39m, [36museminPrepare[39m
+
+[1mRegistering "grunt-wiredep" local Npm module tasks.[22m
+Reading C:\Users\charos\node\tv-schedule\node_modules\grunt-wiredep\package.json...[32mOK[39m
+Parsing C:\Users\charos\node\tv-schedule\node_modules\grunt-wiredep\package.json...[32mOK[39m
+Loading "wiredep.js" tasks...[32mOK[39m
++ [36mwiredep[39m
+Initializing config...[32mOK[39m
+Loading "Gruntfile.js" tasks...[32mOK[39m
++ [36mbuild[39m, [36mdefault[39m, [36mprotractor-run[39m, [36mserve[39m, [36mserver[39m, [36mtest[39m
+
+Running tasks: [36mprotractor-run[39m
+
+[4mRunning "protractor-run" task[24m
+
+[4mRunning "connect:test" (connect) task[24m
+Verifying property [36mconnect.test[39m exists in config...[32mOK[39m
+File: [33m[no files][39m
+Options: [36mprotocol="http"[39m, [36mport=9001[39m, [36mhostname="localhost"[39m, [36mbase="."[39m, [36mdirectory=null[39m, [36mkeepalive=false[39m, [36mdebug=false[39m, [36mlivereload=35729[39m, [36mopen=false[39m, [36museAvailablePort=false[39m, [36mmiddleware=undefined[39m
+Started connect web server on http://localhost:9001
+
+[4mRunning "protractor_webdriver" task[24m
+
+[4mRunning "protractor_webdriver:e2etest" (protractor_webdriver) task[24m
+Verifying property [36mprotractor_webdriver.e2etest[39m exists in config...[32mOK[39m
+File: [33m[no files][39m
+Options: [36mpath=""[39m, [36mcommand="webdriver-manager start --standalone"[39m, [36mkeepAlive=false[39m
+[36mStarting[39m Selenium server
+[31m>> [39mseleniumProcess.pid: 8540
+
+[31m>> [39m18:14:24.539 INFO - Launching a standalone server
+
+[31m>> [39mSetting system property webdriver.chrome.driver to C:\Users\charos\AppData\Roaming\npm\node_modules\protractor\selenium\chromedriver.exe
+
+[31m>> [39m18:14:24.583 INFO - Java: Sun Microsystems Inc. 20.5-b03
+
+[31m>> [39m18:14:24.584 INFO - OS: Windows 7 6.1 amd64
+
+[31m>> [39m18:14:24.591 INFO - v2.44.0, with Core v2.44.0. Built from revision 76d78cf
+
+[31m>> [39m18:14:24.661 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+
+[31m>> [39m18:14:24.661 INFO - Version Jetty/5.1.x
+
+[31m>> [39m18:14:24.662 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+
+[31m>> [39m18:14:24.662 INFO - Started HttpContext[/selenium-server,/selenium-server]
+
+[31m>> [39m18:14:24.662 INFO - Started HttpContext[/,/]
+
+[31m>> [39m18:14:24.695 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@5e7808b9
+
+[31m>> [39m18:14:24.695 INFO - Started HttpContext[/wd,/wd]
+
+[31m>> [39m18:14:24.697 INFO - Started SocketListener on 0.0.0.0:4444
+
+[31m>> [39m18:14:24.698 INFO - Started org.openqa.jetty.jetty.Server@67006d75
+
+[36mStarted[39m Selenium server: [32mhttp://127.0.0.1:4444[39m
+
+[4mRunning "protractor" task[24m
+
+[4mRunning "protractor:e2etest" (protractor) task[24m
+Verifying property [36mprotractor.e2etest[39m exists in config...[32mOK[39m
+File: [33m[no files][39m
+Options: [36mconfigFile="e2e/conf.js"[39m, [36mkeepAlive[39m, [36mnoColor=false[39m, [36mdebug=false[39m, [36margs={}[39m
+Options: { configFile: 'e2e/conf.js',
+  keepAlive: true,
+  noColor: false,
+  debug: false,
+  args: {} }
+Spawn node with arguments: C:\Users\charos\node\tv-schedule\node_modules\grunt-protractor-runner\node_modules\protractor\bin\protractor e2e/conf.js --verbose
+Using the selenium server at http://localhost:4444/wd/hub
+[launcher] Running 1 instances of WebDriver
+[31m>> [39m18:14:25.135 INFO - Executing: [new session: Capabilities [{count=1, browserName=chrome}]])
+
+[36mSession created: [39mcount=1, browserName=chrome
+[31m>> [39m18:14:25.143 INFO - Creating a new session for Capabilities [{count=1, browserName=chrome}]
+
+[31m>> [39mStarting ChromeDriver 2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7) on port 13065
+Only local connections are allowed.
+
+
+
+Execution Time (2014-12-17 16:14:23 UTC)
+loading tasks                   4ms  0%
+connect:test                  422ms  ■■■■■■■ 19%
+protractor_webdriver:e2etest  671ms  ■■■■■■■■■■ 30%
+protractor:e2etest             1.1s  ■■■■■■■■■■■■■■■■■ 51%
+Total 2.2s
+
+Terminate batch job (Y/N)? 
