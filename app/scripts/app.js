@@ -17,7 +17,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'scheduleService',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'jkuri.datepicker'
   ])
   .config(function ($routeProvider) {
     $routeProvider
