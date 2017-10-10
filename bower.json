@@ -13,7 +13,8 @@
     "angular-sanitize": "^1.3.0",
     "angular-touch": "^1.3.0",
     "angular-ui-bootstrap-datepicker": "~0.0.4",
-    "angular-ui-bootstrap": "~0.12.0"
+    "angular-ui-bootstrap": "~0.12.0",
+    "ngDatepicker": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.3.0",
