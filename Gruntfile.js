@@ -1,7 +1,6 @@
 // Generated on 2014-12-17 using generator-angular 0.10.0
 'use strict';
 
-var proxySnippet = require('grunt-connect-proxy/lib/utils').proxyRequest;
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
@@ -77,13 +76,7 @@ module.exports = function (grunt) {
         hostname: 'localhost',
         livereload: 35729
       },
-      proxies: [ {      //proxy definition
-                          context: '/ote',
-                          host: 'bcdmmongoflex',
-                          port: 80,
-                          https: false
-                      }
-        ],
+      
       livereload: {
         options: {
           open: true,
@@ -95,7 +88,7 @@ module.exports = function (grunt) {
                 connect.static('./bower_components')
               ),
               connect.static(appConfig.app),
-               proxySnippet,
+              
               mountFolder(connect, 'app')
             ];
           }
@@ -113,7 +106,7 @@ module.exports = function (grunt) {
                 connect.static('./bower_components')
               ),
               connect.static(appConfig.app),
-               proxySnippet,
+               
               mountFolder(connect, 'app')
             ];
           }
@@ -411,7 +404,7 @@ module.exports = function (grunt) {
       'clean:server',
       'wiredep',
 
-      'configureProxies',
+      
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
@@ -459,7 +452,7 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('protractor-run', [
-    //'configureProxies',
+    
     'connect:test',
     'protractor_webdriver',
     'protractor'
